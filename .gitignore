@@ -16,3 +16,4 @@ dist
 ganache-db
 .env
 data.json
+data

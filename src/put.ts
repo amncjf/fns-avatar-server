@@ -5,7 +5,6 @@ import {env, NetworkName} from "./env";
 import { EMPTY_ADDRESS, getOwnersAndAvailable, dataURLToBytes } from "./utils";
 import {Request, Response} from "express";
 import Bucket from './bucket'
-import logs from "@ancjf/logs";
 
 export default async (req: Request, res: Response) => {
   const { name, network } = req.params;
